@@ -1,0 +1,98 @@
+{
+	"name": "Pumpkin Pancakes",
+	"authorID": 1,
+	"photoURL": "fakeurl.url",
+	"public": false
+}
+
+
+{
+	"name": "Batter",
+	"componentNum": 1
+}
+
+
+{
+	"stepNum": 1,
+	"instruction": "Combine egg, milk, sugar, vanilla, pumpkin."
+}
+
+{
+	"stepNum": 2,
+	"instruction": "Whisk bisquick, baking powder, salt, cloves, nutmeg, and cinamon."
+}
+
+{
+	"stepNum": 3,
+	"instruction": "Combine dry and wet mixtures with butter. Stir just until incorporated."
+}
+
+{
+	"stepNum": 4,
+	"instruction": "Pour 2 heaping tablespoons per pancake on 170 degree C griddle."
+}
+
+{
+	"stepNum": 5,
+	"instruction": "Cook 3 minutes each side."
+}
+
+{
+	"ingredient": "Bisquick",
+	"amount": "115 grams"
+}
+
+{
+	"ingredient": "Baking Powder",
+	"amount": "1/2 tsp"
+}
+
+{
+	"ingredient": "Cinamon",
+	"amount": "1/2 tsp"
+}
+
+{
+	"ingredient": "Nutmeg",
+	"amount": "1/2 tsp"
+}
+
+{
+	"ingredient": "Cloves",
+	"amount": "1/4 tsp"
+}
+
+{
+	"ingredient": "Salt",
+	"amount": "1/4 tsp"
+}
+
+{
+	"ingredient": "Melted Butter",
+	"amount": "14 grams"
+}
+
+{
+	"ingredient": "Egg",
+	"amount": "1 (50 grams)"
+}
+
+{
+	"ingredient": "Vanilla Extract",
+	"amount": "1/2 tsp"
+}
+
+{
+	"ingredient": "Sugar",
+	"amount": "17 grams"
+}
+
+{
+	"ingredient": "Milk",
+	"amount": "75 grams"
+}
+
+{
+	"ingredient": "Pumpkin",
+	"amount": "100 grams"
+}

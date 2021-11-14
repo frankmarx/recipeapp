@@ -1,0 +1,90 @@
+.imgUploadContainer {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, .5);
+	height: auto;
+}
+
+.imgUploadContent {
+	width: 615px;
+	margin: auto;
+	display: grid;
+}
+
+.closeButton {
+	grid-area: 1 / 1 / span 1 / span 1;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 0px;
+	border-radius: 22px;
+	height: 44px;
+	width: 44px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #dbdbdb;
+	justify-content: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.closeButton img {
+	height: 35px;
+	width: 35px;
+	margin: auto;
+	margin-top: 2px;
+}
+
+.imgInputContent {
+	display: grid;
+}
+
+.fileInput {
+	width: 500px;
+	height: 500px;
+	border-radius: 15px;
+	border: 1px solid rgb(197, 197, 197);
+	margin: auto;
+	margin-top: 50px;
+	background-color: rgb(216, 216, 216);
+	cursor: pointer;
+}
+
+.fileInput img {
+	width: 200px;
+	height: 200px;
+	margin-left: 145px;
+	margin-top: 145px;
+}
+
+.imgPreview {
+	grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.hiddenFileInput {
+	display: none;
+}
+
+.crop-img-container {
+	width: 615px;
+	height: 400px;;
+}
+
+.croppingWindow {
+	width: 615px;
+}
+
+.cropButton {
+	width: 300px;
+	height: 30px;
+	border-radius: 15px;
+	color: white;
+	background-color: rgb(127, 127, 233);
+	margin-left: 156px;
+	margin-top: 15px;
+	border: 0px;
+	cursor: pointer;
+}

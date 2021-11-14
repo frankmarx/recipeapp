@@ -1,0 +1,40 @@
+.navbar_container {
+	height: auto;
+	width: 100%;
+	background-color: rgb(252, 250, 248);
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid #dbdbdb;
+	justify-content: center;
+	display: flex;
+}
+
+.navbar_button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 0px;
+	border-radius: 22px;
+	height: 44px;
+	width: 44px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #dbdbdb;
+	justify-content: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.navbar_button img {
+	height: 35px;
+	width: 35px;
+	margin: auto;
+	margin-top: 2px;
+}
+
+#home img {
+	height: 40px;
+	width: 40px;
+	margin: auto;
+	object-fit: contain;
+}

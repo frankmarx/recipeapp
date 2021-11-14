@@ -1,0 +1,364 @@
+.addRecipe_container {
+	width: 615px;
+	height: auto;
+	border-radius: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	border: 1px solid #dbdbdb;
+	background-color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.post_header {
+	width: 615px;
+	grid-area: 1 / 1 / span 1 / span 4;
+}
+
+.recipeNameInput {
+	grid-area: 2 / 1 / span 1 / span 3;
+	width: 400px;
+	margin: 15px;
+	height: 30px;
+}
+
+.recipePhotoInput {
+	grid-area: 2 / 3 / span 3 / span 2;
+	margin: 15px;
+	height: 150px;
+	width: 150px;
+	justify-self: right;
+	cursor: pointer;
+}
+
+.recipePhotoInput img {
+	margin: auto;
+	height: 100px;
+	width: 100px;
+}
+
+.mainPhotoPrev {
+	grid-area: 2 / 3 / span 3 / span 2;
+	margin: 15px;
+	height: 150px;
+	width: 150px;
+	justify-self: right;
+	overflow: hidden;
+}
+
+.mainPhotoPrev img {
+	margin: 0;
+	height: 150px;
+	width: 150px;
+}
+
+.recipeTimeInput {
+	grid-area: 3 / 1 / span 1 / span 2;
+	margin: 15px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+}
+
+.recipeYieldInput {
+	grid-area: 4 / 1 / span 1 / span 2;
+	margin: 15px;
+	margin-left: 25px;
+}
+
+#instructions {
+	grid-area: 5 / 1 / span 1 / span 4;
+	margin-left: 15px;
+}
+
+.addRecipe_instructionsContainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-area: 6 / 1 / span 1 / span 4;
+	width: 550px;
+	margin: auto;
+	margin-top: 15px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	background-color: rgb(252, 250, 248);
+}
+
+.instructionsInputCont {
+	display: flex;
+	margin: 15px;
+}
+
+.instructionsInput {
+	width: 75%;
+}
+
+.deleteButton {
+	width: 30px;
+	height: 25px;
+	border-radius: 15px;
+	border: 0px;
+	cursor: pointer;
+	background-color: rgb(250, 60, 60);
+	color: white;
+	margin: auto;
+	margin-left: 15px;
+}
+
+.deleteHidden {
+	display: none;
+}
+
+.compInstructionsInput {
+	width: 73%;
+}
+
+.stepNum {
+	padding-bottom: 3px;
+	margin-right: 10px;
+}
+
+
+#components {
+	grid-area: 7 / 1 / span 1 / span 4;
+	margin-left: 15px;
+}
+
+.addRecipe_componentContainer {
+	grid-area: 8 / 1 / span 1 / span 4;
+	display: grid;
+	grid-template-rows: auto;
+}
+
+
+.componentFieldContainer {
+	display: grid;
+	width: 550px;
+	margin: auto;
+	margin-top: 15px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	background-color: rgb(252, 250, 248);
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.compNameInput {
+	grid-area: 1 / 1 / span 1 / span 3;
+	margin: auto;
+	margin-left: 25px;
+}
+
+.compNameField {
+	height: 30px;
+	width: 300px;
+}
+
+.compPhotoInput {
+	grid-area: 1 / 4 / span 1 / span 1;
+	margin: 15px;
+	height: 80px;
+	width: 80px;
+	justify-self: right;
+	cursor: pointer;
+}
+
+.compPhotoInput img {
+	margin: auto;
+	height: 50px;
+	width: 50px;
+}
+
+.compPhotoPrev {
+	grid-area: 1 / 4 / span 1 / span 1;
+	margin: 15px;
+	height: 80px;
+	width: 80px;
+	justify-self: right;
+	overflow: hidden;
+}
+
+.compPhotoPrev img {
+	margin: 0;
+	height: 80px;
+	width: 80px;
+}
+
+#instructionsComp {
+	grid-area: 2 / 1 / span 1 / span 4;
+	margin-left: 15px;
+}
+
+.addRecipe_compInstructionsContainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-area: 3 / 1 / span 1 / span 4;
+	width: 500px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	background-color: white;
+}
+
+#ingredients {
+	grid-area: 4 / 1 / span 1 / span 4;
+	margin-left: 15px;
+}
+
+.addRecipe_componentIngredientsContainer {
+	grid-area: 5 / 1 / span 1 / span 4;
+	width: 500px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+	background-color: white;
+
+}
+
+.ingredInputCont {
+	margin: 15px;
+	display: flex;
+}
+
+.amountInput {
+	width: 100px;
+	margin-right: 15px;
+}
+
+.ingredientInput {
+	width: 300px;
+}
+
+.addCompButton {
+	height: 30px;
+	width: 200px;
+	border-radius: 15px;
+	border: 0px;
+	margin: auto;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.addCompButton img {
+	height: 35px;
+	width: 35px;
+	margin-left: 1px;
+	margin-top: 2px;
+}
+
+
+.submitButton {
+	grid-area: 9 / 2 / span 1 / span 2;
+	margin: auto;
+	margin-top: 20px;
+	height: 40px;
+	width: 300px;
+	border-radius: 20px;
+	border: 0px;
+	background-color:rgb(131, 131, 253);
+	color: white;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.jsonPreview {
+	grid-area: 10 / 1 / span 1 / span 4;
+}
+
+.submittingContainer {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, .5);
+	height: auto;
+}
+
+#loaderDescription {
+	display: block;
+	position: relative;
+	color: white;
+	width: auto;
+	top: 55%;
+	height: 150px;
+	justify-content: center;
+	font-size: medium;
+	left: 39%;
+	margin-top: 0px;
+}
+
+#loader {
+	display: block;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #0e72b4;
+	-webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+	animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#loader:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #c43222;
+	-webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+		animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#loader:after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #f9c922;
+	-webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+		animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+@-webkit-keyframes spin {
+	0%   {
+			-webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+			-ms-transform: rotate(0deg);  /* IE 9 */
+			transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+	}
+	100% {
+			-webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+			-ms-transform: rotate(360deg);  /* IE 9 */
+			transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+	}
+}
+@keyframes spin {
+	0%   {
+			-webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+			-ms-transform: rotate(0deg);  /* IE 9 */
+			transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+	}
+	100% {
+			-webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+			-ms-transform: rotate(360deg);  /* IE 9 */
+			transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+	}
+}
+
+
+
